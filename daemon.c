@@ -2,6 +2,7 @@
  * daemonize.c
  * This example daemonizes a process, writes a few log messages,
  * sleeps 20 seconds and terminates afterwards.
+ * From: https://stackoverflow.com/questions/17954432/creating-a-daemon-in-linux
  */
 
 #include <stdio.h>
