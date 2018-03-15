@@ -2,6 +2,7 @@
 Spring 2018 Software Systems Project 1
 
 ![Git Daemon program output](reports/git_daemon_output.png)
+
 Git Daemon program in action
 
 To run the program:
