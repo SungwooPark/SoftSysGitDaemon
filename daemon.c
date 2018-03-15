@@ -70,10 +70,20 @@ int main()
 {
     skeleton_daemon();
 
+    FILE *fp;
+    char *command = "ls";
+    char *str1;
+
     while (1)
     {
         //TODO: Insert daemon code here.
+
+        fp = popen(command,"r");
+        fscanf(fp, "%s", str1);
+        std::string message = std:string(str1);
+
         syslog (LOG_NOTICE, "First daemon started.");
+        syslog (LOG_NOTICE, message.c_str());
         sleep (20);
         break;
     }
