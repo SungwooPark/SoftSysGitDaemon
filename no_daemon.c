@@ -25,7 +25,7 @@ double time_since_last_commit(){
     exit(1);
   }
 
-  /* Read the output a line at a time - output it. */
+  /* Read the output a line at a time */
   while (fgets(output, sizeof(output)-1, fp) != NULL) {
     // printf("%s", output);
     if (prefix("Date", output)){
