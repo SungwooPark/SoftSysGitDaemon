@@ -48,10 +48,10 @@ int main(){
   while(1){
     double last_commit_time_diff = time_since_last_commit();
     printf("seconds since last commit: %f\n", last_commit_time_diff);
-    if (last_commit_time_diff > 100.0){
+    if (last_commit_time_diff > 600.0){
       printf("You have not commited your work in while. Commit your work!\n");
     }
-    sleep(10);
+    sleep(60);
   }
   return 0;
 }
