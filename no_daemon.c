@@ -1,3 +1,8 @@
+"""
+A simple background 'deamon' program that alerts the user if long time has
+passed since the last commit.
+"""
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
